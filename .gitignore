@@ -1,0 +1,6 @@
+bin/*
+obj/*
+Properties/*
+Learning Library.csproj
+ResourceList.cs
+Game.cs
