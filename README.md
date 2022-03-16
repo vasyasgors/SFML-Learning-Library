@@ -64,6 +64,7 @@ bool GetMouseButtonDown(Mouse.Button button) - возвращает true в мо
 bool GetMouseButtonUp(Mouse.Button button) - возвращает true в момент подъема клавиши мышки button
       
 int MouseX - координата X указателя мышки относительно окна
+
 int MouseY - координата Y указателя мышки относительно окна
 
 ### Рисование примитивов
