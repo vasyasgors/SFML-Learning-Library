@@ -7,24 +7,33 @@
 ### Структура программы
 
 ```
-class ExampleGame : Game // Наследование от класса Game
+using System;
+using SFML.Learning;
+
+class Program : Game
 {
     static void Main()
     {
-        InitWindow(800, 600, "Example"); // Создание окна игры
-		
-	// Загрузка ресурсов (Текстуры, звуки, шрифты)
+        InitWindow(800, 600, "Meow");
 
-	// Главный цикл игры
         while (true)
         {
-           	DispatchEvents(); // Реагирования на клавиатуру и мышь
+            // 1. Расчет
+            DispatchEvents();
 
-		// Обновление игровой логики
+            // Игровая логика
 
-           	DisplayWindow(); // Отображение графического буфера на окне
+            // 2. Очистка буфера и окна
+            ClearWindow();
 
-            	Delay(1); // Ожидание
+            // 3. Отрисовка буфера на окне
+
+            // Вывозв методов отрисовки объектов
+
+            DisplayWindow();
+
+            // 4. Ожидание
+            Delay(1);
         }
     }
 }
