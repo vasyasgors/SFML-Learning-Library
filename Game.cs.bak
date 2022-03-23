@@ -168,7 +168,7 @@ namespace SFML.Learning
 
         public static void ClearWindow(Color color)
         {
-            window.Clear();
+            window.Clear(color);
 
             DeltaTime = clock.Restart().AsSeconds();
         }
